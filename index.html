@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SC Ship Database – Support</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0d0f14;
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 24px;
+    }
+    .logo {
+      width: 96px;
+      height: 96px;
+      background: #1a1d26;
+      border-radius: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      border: 1px solid #2a2d3a;
+    }
+    .logo svg { width: 52px; height: 52px; }
+    h1 { font-size: 2rem; font-weight: 700; color: #ffffff; margin-bottom: 8px; text-align: center; }
+    .subtitle { font-size: 1rem; color: #6b7280; margin-bottom: 48px; text-align: center; }
+    .card {
+      background: #1a1d26;
+      border: 1px solid #2a2d3a;
+      border-radius: 16px;
+      padding: 32px;
+      max-width: 600px;
+      width: 100%;
+      margin-bottom: 24px;
+    }
+    h2 { font-size: 1.1rem; font-weight: 600; color: #22d3ee; margin-bottom: 16px; }
+    p { font-size: 0.95rem; color: #9ca3af; line-height: 1.7; margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+    a { color: #22d3ee; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact-btn {
+      display: inline-block;
+      margin-top: 16px;
+      background: #22d3ee;
+      color: #0d0f14;
+      font-weight: 600;
+      padding: 12px 28px;
+      border-radius: 50px;
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+    .contact-btn:hover { background: #06b6d4; text-decoration: none; }
+    .faq-item { margin-bottom: 20px; }
+    .faq-item h3 { font-size: 0.95rem; font-weight: 600; color: #e0e0e0; margin-bottom: 6px; }
+    .faq-item p { margin-bottom: 0; }
+    footer {
+      margin-top: 48px;
+      font-size: 0.8rem;
+      color: #374151;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M26 4 L36 20 L48 22 L38 32 L40 44 L26 38 L12 44 L14 32 L4 22 L16 20 Z"
+            stroke="#22d3ee" stroke-width="2" fill="none"/>
+      <circle cx="26" cy="26" r="5" fill="#22d3ee"/>
+    </svg>
+  </div>
+
+  <h1>SC Ship Database</h1>
+  <p class="subtitle">Support &amp; Help Center</p>
+
+  <div class="card">
+    <h2>Contact Support</h2>
+    <p>Have a bug to report, a feature request, or a question? Send us an email and we'll get back to you as soon as possible.</p>
+    <a class="contact-btn" href="mailto:walterbarrjr@gmail.com">Email Support</a>
+  </div>
+
+  <div class="card">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>Is SC Ship Database free?</h3>
+      <p>Yes, the app is completely free to download and use. A voluntary "Support Dev" option is available inside the app if you'd like to help keep it updated.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is the ship data up to date?</h3>
+      <p>We aim to keep ship stats current with the latest Star Citizen alpha patches. The app displays the current game version on the Ship Database screen.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is this an official Cloud Imperium Games app?</h3>
+      <p>No. SC Ship Database is an unofficial community fan project and is not affiliated with, endorsed by, or connected to Cloud Imperium Games or Roberts Space Industries.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>My data (favorites, loadouts) was lost after an update.</h3>
+      <p>Favorites and saved loadouts are stored locally on your device. Reinstalling the app or restoring from a backup may affect this data. We're working on cloud sync for a future update.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I request a feature or report incorrect data?</h3>
+      <p>Email us at <a href="mailto:walterbarrjr@gmail.com">walterbarrjr@gmail.com</a> with details and we'll look into it.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Digital Horizon Software &nbsp;·&nbsp; SC Ship Database is a community fan project
+  </footer>
+
+</body>
+</html>
