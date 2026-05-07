@@ -19,15 +19,11 @@
     .logo {
       width: 96px;
       height: 96px;
-      background: #1a1d26;
       border-radius: 22px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       margin-bottom: 24px;
-      border: 1px solid #2a2d3a;
+      overflow: hidden;
     }
-    .logo svg { width: 52px; height: 52px; }
+    .logo img { width: 96px; height: 96px; display: block; }
     h1 { font-size: 2rem; font-weight: 700; color: #ffffff; margin-bottom: 8px; text-align: center; }
     .subtitle { font-size: 1rem; color: #6b7280; margin-bottom: 48px; text-align: center; }
     .card {
@@ -70,11 +66,7 @@
 <body>
 
   <div class="logo">
-    <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M26 4 L36 20 L48 22 L38 32 L40 44 L26 38 L12 44 L14 32 L4 22 L16 20 Z"
-            stroke="#22d3ee" stroke-width="2" fill="none"/>
-      <circle cx="26" cy="26" r="5" fill="#22d3ee"/>
-    </svg>
+    <img src="icon.png" alt="SC Ship Database" />
   </div>
 
   <h1>SC Ship Database</h1>
